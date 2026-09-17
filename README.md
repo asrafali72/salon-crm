@@ -81,12 +81,13 @@ salon-crm/
 │
 ├── server/
 │   ├── prisma/
-│   ├── modules/
-│   ├── middleware/
-│   ├── routes/
-│   ├── sockets/
-│   ├── queues/
-│   └── utils/
+│   ├──src/
+│   │   ├── modules/
+│   │   ├── middleware/
+│   │   ├── routes/
+│   │   ├── sockets/
+│   │   ├── queues/
+│   │   ├── utils/
 │
 ├── README.md
 └── package.json
