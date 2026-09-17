@@ -132,15 +132,7 @@ Customer → Reception → Stylist → Billing
 
 Status Flow
 
-Pending
-↓
-Confirmed
-↓
-Checked In
-↓
-In Service
-↓
-Completed
+Pending → Confirmed → Checked In → In Service → Completed
 
 OR
 
@@ -340,6 +332,12 @@ CLOUDINARY_CLOUD_NAME=xxxx
 CLOUDINARY_API_KEY=xxxx
 
 CLOUDINARY_API_SECRET=xxxx
+
+REDIS_HOST = xxxx
+
+REDIS_PORT = xxxx
+
+REDIS_PASS = xxxx
 ```
 
 ## Client (.env)
