@@ -321,23 +321,19 @@ PORT=5000
 
 DATABASE_URL="postgresql://postgres:password@localhost:5432/saloncrm"
 
-JWT_SECRET=your_secret
+JWT_ACCESS_SECRET=your_secret
 
 JWT_REFRESH_SECRET=refresh_secret
 
 REDIS_URL=redis://localhost:6379
-
-CLOUDINARY_CLOUD_NAME=xxxx
-
-CLOUDINARY_API_KEY=xxxx
-
-CLOUDINARY_API_SECRET=xxxx
 
 REDIS_HOST = xxxx
 
 REDIS_PORT = xxxx
 
 REDIS_PASS = xxxx
+
+FRONTEND_URL="http://localhost:5173"
 ```
 
 ## Client (.env)
